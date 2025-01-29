@@ -7,7 +7,7 @@ const DisplayInfo = (req,res)=>{
 const message = {
     email:'abdlnurakani@gmail.com',
     current_datetime: ISODate,
-    github_url:'https://github.com/Dan-Gaya/STAGE_ZERO'
+    github_url:'https://github.com/Dan-Gaya/STAGE_ZERO.git'
 }
 
 
