@@ -1,7 +1,7 @@
 
 
 const DisplayInfo = (req,res)=>{
-    
+const currentDate = new Date();
     // Format the date to match the server's local time
 const ISODate = new Date(currentDate.getTime() - currentDate.getTimezoneOffset() * 60000).toISOString();
 const message = {
