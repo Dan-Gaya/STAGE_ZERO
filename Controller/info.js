@@ -13,8 +13,8 @@ const DisplayInfo = (req,res)=>{
 
     return res.status(200).json({
         email: message.email,
-        curren_datetime:message.currentime,
-        github_url:message.GithubUrl
+        current_datetime:message.current_datetime,
+        github_url:message.github_url
     });
 
 };
