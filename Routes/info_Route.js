@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express.Router();
-// const {DisplayInfo} = require('../Controller/info')
 const DisplayInfo = require('../Controller/info')
 
 
-router.get('/info',DisplayInfo);
+router.get('/',DisplayInfo);
 
 
 module.exports = router;
