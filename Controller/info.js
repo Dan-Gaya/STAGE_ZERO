@@ -7,7 +7,7 @@ const ISODate = new Date(currentDate.getTime() - currentDate.getTimezoneOffset()
 const message = {
     email:'abdlnurakani@gmail.com',
     current_datetime: ISODate,
-    github_url:'https://github.com/Dan-Gaya/STAGE_ZERO.git'
+    github_url:'https://github.com/Dan-Gaya/STAGE_ZERO'
 }
 
 
