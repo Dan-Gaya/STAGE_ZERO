@@ -12,7 +12,7 @@ const infoRoutes = require('./Routes/info_Route')
 
 app.use('/api',infoRoutes);
 app.use('/', (req, res,next) => {
-    res.send('Hello, welcome to Task amnagement API. URl:http://localhost:3000/api/ ');
+    res.send('Hello, welcome to HNG STAGE ZERO. visit https://stage-zero-lilac.vercel.app/api ');
   });
 
 //error handling
