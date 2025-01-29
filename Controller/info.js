@@ -5,16 +5,16 @@ const ISODate = currenDate.toISOString();
 
 const message = {
     email:'abdlnurakani@gmail.com',
-    currentime: ISODate,
-    GithubUrl:'https://github.com/Dan-Gaya/STAGE_ZERO'
+    current_datetime: ISODate,
+    github_url:'https://github.com/Dan-Gaya/STAGE_ZERO'
 }
 
 const DisplayInfo = (req,res)=>{
 
     return res.status(200).json({
         email: message.email,
-        currentime:message.currentime,
-        GithubUrl:message.GithubUrl
+        curren_datetime:message.currentime,
+        github_url:message.GithubUrl
     });
 
 };
