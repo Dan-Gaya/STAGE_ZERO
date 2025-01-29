@@ -1,7 +1,8 @@
 
-const currenDate = new Date();
 
-const ISODate = currenDate.toISOString();
+const DisplayInfo = (req,res)=>{
+    const currenDate = new Date();
+    const ISODate = currenDate.toISOString();
 
 const message = {
     email:'abdlnurakani@gmail.com',
@@ -9,7 +10,6 @@ const message = {
     github_url:'https://github.com/Dan-Gaya/STAGE_ZERO'
 }
 
-const DisplayInfo = (req,res)=>{
 
     return res.status(200).json({
         email: message.email,
