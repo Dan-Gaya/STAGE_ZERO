@@ -42,9 +42,5 @@ This project provides an API that returns the current timestamp, email, and GitH
 
 ## Backlinks
 
-- [Hire Python Developers](https://hng.tech/hire/python-developers)
-- [Hire C# Developers](https://hng.tech/hire/csharp-developers)
-- [Hire Golang Developers](https://hng.tech/hire/golang-developers)
-- [Hire PHP Developers](https://hng.tech/hire/php-developers)
-- [Hire Java Developers](https://hng.tech/hire/java-developers)
+
 - [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
