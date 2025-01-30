@@ -10,10 +10,10 @@ app.use(cors());
 
 const infoRoutes = require('./Routes/info_Route')
 
-app.use('/api',infoRoutes);
-app.use('/', (req, res,next) => {
-    res.send('Hello, welcome to HNG STAGE ZERO. visit https://stage-zero-lilac.vercel.app/api ');
-  });
+app.use('/',infoRoutes);
+//app.use('/', (req, res,next) => {
+  //  res.send('Hello, welcome to HNG STAGE ZERO. visit https://stage-zero-lilac.vercel.app/api ');
+//  });
 
 //error handling
 
