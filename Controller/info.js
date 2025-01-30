@@ -9,7 +9,7 @@ const DisplayInfo = (req,res)=>{
         .split('.')[0] + 'Z'; // Remove milliseconds and append 'Z'
     
     const message = {
-        email: 'abdlnurakani@gmail.com',
+        email: 'abdulnurakani@gmail.com',
         current_datetime: localISODate,
         github_url: 'https://github.com/Dan-Gaya/STAGE_ZERO'
     };
